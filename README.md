@@ -41,10 +41,12 @@ Build a supervised learning model to predict whether a borrower will default, us
 
 ## Results
 
-- **ROC-AUC**: 0.61 (vs. 0.50 baseline)
+- **ROC-AUC**: AUC of 0.656 on the held-out test set confirms model performance beyond baseline (0.5)
 - **Recall on defaults**: 58%
 - **Approval rate maintained**: 62%
 - **Estimated savings**: ~$850K per 10,000 loans
+
+- ![ROC AUC](./reports/figures/evaluation/roc-curve.png)
 
 ---
 
@@ -78,6 +80,3 @@ Used as a **second-look model**:
 | `ColumnTransformer`, `Pipeline` | Preprocessing |
 
 ---
-
-## 📁 Repo Structure
-
