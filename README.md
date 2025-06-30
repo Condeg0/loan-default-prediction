@@ -46,7 +46,7 @@ Build a supervised learning model to predict whether a borrower will default, us
 - **Approval rate maintained**: 62%
 - **Estimated savings**: ~$850K per 10,000 loans
 
-- ![ROC AUC](/reports/figures/roc_test.png | width=30)
+- ![ROC AUC](/reports/figures/roc_test.png){width=30%}
 
 ---
 
